@@ -66,3 +66,6 @@ source <(kubectl completion zsh)
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
+
+# setup my bin
+export PATH="$PATH:$HOME/.bin"

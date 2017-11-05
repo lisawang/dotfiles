@@ -174,17 +174,7 @@ alias dcb='docker-compose build'
 alias dcu='docker-compose up'
 
 # myob-auth
-alias auth-central-prod='myob-auth login --username song.jin --role adfs-ex-central-production-admin'
-alias auth-central-dev='myob-auth login --username song.jin --role adfs-ex-central-development-admin'
-alias auth-cluster-prod='myob-auth login --username song.jin --role adfs-ex-cluster-production-admin'
-alias auth-cluster-preprod='myob-auth login --username song.jin --role adfs-ex-cluster-preprod-admin'
 
-
-# Cluster configs
-alias kube-dev="export KUBECONFIG=$HOME/.kube/config.dev:$HOME/.kube/config"
-alias kube-minikube="export KUBECONFIG=$HOME/.kube/config.minikube:$HOME/.kube/config"
-alias kube-preprod="export KUBECONFIG=~/.kube/config.preprod:~/.kube/config"
-alias kube-prod="export KUBECONFIG=$HOME/.kube/config.prod:$HOME/.kube/config"
 
 # kubectl
 alias kb="kubectl"
