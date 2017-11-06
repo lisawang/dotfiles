@@ -172,11 +172,3 @@ alias dc='docker-compose'
 alias dcr='docker-compose run --rm'
 alias dcb='docker-compose build'
 alias dcu='docker-compose up'
-
-# myob-auth
-
-
-# kubectl
-alias kb="kubectl"
-alias kbctx="kb config get-contexts"
-alias kbp="kb proxy --port"

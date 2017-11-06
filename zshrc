@@ -54,13 +54,11 @@ source ~/.{aliases,functions,exports}
 export GOPATH=~/.go
 export PATH="$PATH:$GOPATH/bin" 
 
+
 ## AWS auto completion
 #source /usr/local/share/zsh/site-functions/_aws
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-# kb auto suggestions
-source <(kubectl completion zsh)
-
 
 # virtualenv wrapper
 export WORKON_HOME=$HOME/.virtualenvs
